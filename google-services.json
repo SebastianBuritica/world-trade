@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "119587327537",
+    "project_id": "worldtrade-a715b",
+    "storage_bucket": "worldtrade-a715b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119587327537:android:d50d638d8885159a2e0f10",
+        "android_client_info": {
+          "package_name": "com.wtallies.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1lRya4lapkECvLRmgmYWwf5YaOs6EFSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
