@@ -1,12 +1,11 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MainTabParamList } from "./types";
-import DashboardScreen from "../dashboard/screens/DashboardScreen";
-import ShipmentsScreen from "../shipments/screens/ShipmentsScreen";
-import InventoryScreen from "../inventory/screens/InventoryScreen";
-import ClientsScreen from "../clients/screens/ClientsScreen";
-import MoreScreen from "../settings/screens/MoreScreen";
 import { Ionicons } from "@expo/vector-icons";
+import DashboardScreen from "../dashboard/DashboardScreen";
+import InventoryScreen from "../inventory/InventoryScreen";
+import ShipmentsScreen from "../shipments/ShipmentsScreen";
+import ClientsScreen from "../clients/ClientsScreen";
 
 const Tab = createBottomTabNavigator<MainTabParamList>();
 
@@ -68,15 +67,6 @@ const MainNavigator: React.FC = () => {
         options={{
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="people-outline" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="More"
-        component={MoreScreen}
-        options={{
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="ellipsis-horizontal" color={color} size={size} />
           ),
         }}
       />

@@ -15,7 +15,6 @@ export type MainTabParamList = {
   Shipments: undefined;
   Inventory: undefined;
   Clients: undefined;
-  More: undefined;
   Settings: undefined;
 };
 

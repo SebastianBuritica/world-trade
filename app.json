@@ -2,22 +2,20 @@
   "expo": {
     "name": "worldTrade",
     "slug": "worldTrade",
+    "jsEngine": "hermes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.wtallies.app",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "bundleIdentifier": "com.wtallies.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,18 +26,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugins": ["expo-dev-client"],
-    "extra": {
-      "eas": {
-        "projectId": "b6427eec-e71a-44ae-832e-aaa085784360"
-      }
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/b6427eec-e71a-44ae-832e-aaa085784360"
     }
   }
 }

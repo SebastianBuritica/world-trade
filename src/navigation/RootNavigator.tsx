@@ -1,5 +1,4 @@
-// eslint-disable-next-line prettier/prettier
-import React from 'react';
+import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { ActivityIndicator, View, StyleSheet } from "react-native";
 import { useAuth } from "../auth/context/AuthContext";
